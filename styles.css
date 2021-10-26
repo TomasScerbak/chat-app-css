@@ -68,7 +68,7 @@ p {
   background-color: var(--white);
   border-radius: 30px;
   padding: 1.5rem 8rem;
-  top: -15%;
+  top: -14%;
 }
 /* Mobile header */
 .mobile__media {
@@ -113,9 +113,8 @@ p {
 }
 .chat {
   border-radius: 20px 20px 20px 5px;
-  padding: 0.5rem 0.5rem;
   margin: 1rem;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   width: 55%;
 }
 .chat-primary {
@@ -126,6 +125,11 @@ p {
   background-color: var(--white);
 }
 .chat-accent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
   background: rgb(170, 60, 255);
   background: linear-gradient(
     41deg,
@@ -136,4 +140,64 @@ p {
 }
 .message {
   font-size: 1rem;
+}
+.chat-box-right {
+  border-radius: 20px 20px 5px 20px;
+  margin-left: 10rem;
+}
+.box-small {
+  text-align: right;
+  width: 30%;
+  margin-left: 18rem;
+}
+.chat-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+.dog__image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 10px;
+  margin: 0.4rem;
+}
+/* Radio Button and text */
+input[type="radio"] {
+  outline: none;
+  -webkit-appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  background-color: transparent;
+  border: 0.5px solid var(--pale-violet);
+}
+.radio__button {
+  display: flex;
+}
+.radio__text {
+  margin-left: 1rem;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: lighter;
+  opacity: 70%;
+}
+.price {
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+/* Type Message */
+.type-message {
+  width: 80%;
+  font-size: 1rem;
+  opacity: 50%;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--white);
+  padding: 2rem;
+  margin: 1rem;
+  color: var(--grayish-blue);
 }
