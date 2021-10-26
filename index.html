@@ -19,117 +19,131 @@
     <title>Chat App</title>
   </head>
   <body>
-    <main class="container">
+    <main>
       <div class="bacground">
         <div class="bg-up"></div>
         <div class="bg-down"></div>
       </div>
       <section>
-        <div class="mobile">
-          <div class="mobile__media">
-            <div class="empty-div"></div>
-            <div class="chevron">
-              <a href="#"><i class="fas fa-chevron-left"></i></a>
-            </div>
-            <div class="profile__picture">
-              <img
-                class="picture"
-                src="Images/avatar.jpg"
-                alt="profile picture"
-              />
-            </div>
-            <div class="profile">
-              <div class="profile__name">Samuel Green</div>
-              <div class="profile__availability">Available to Walk</div>
-            </div>
-            <div class="mobile__menu">
-              <a href="#"><i class="fas fa-ellipsis-v fa-sm"></i></a>
-            </div>
-          </div>
-          <div class="mobile__chat">
-            <div class="chat chat-primary">
-              <p class="message">
-                That sounds great. I'd be happy to discuss more.
-              </p>
-            </div>
-            <div class="chat chat-primary">
-              <p class="message">
-                Could you send ovver some picture of you dog, please?
-              </p>
-            </div>
-            <div class="chat-images">
-              <div>
-                <img
-                  class="dog__image"
-                  src="Images/dog-image-1.jpg"
-                  alt="photo of a dog"
-                />
-              </div>
-              <div>
-                <img
-                  class="dog__image"
-                  src="Images/dog-image-2.jpg"
-                  alt="photo of a dog"
-                />
-              </div>
-              <div>
-                <img
-                  class="dog__image"
-                  src="Images/dog-image-3.jpg"
-                  alt="photo of a dog"
-                />
-              </div>
-            </div>
-            <div class="chat chat-secondary chat-box-right">
-              <p class="message">Here are few pictures. She's a happy girl</p>
-            </div>
-            <div class="chat chat-secondary chat-box-right box-small">
-              <p class="message">Can you make it?</p>
-            </div>
-            <div class="chat chat-primary">
-              <p class="message">
-                She looks so happy! The time we discussed works. How long shall
-                I take her out for?
-              </p>
-            </div>
-            <div class="chat chat-accent">
-              <div class="radio__button">
-                <input class="radio" type="radio" name="30min" id="" />
-                <div>
-                  <label class="radio__text" for="30min">30 minute walk</label>
+        <div class="container">
+          <div class="box-one">
+            <div class="mobile">
+              <div class="mobile__media">
+                <div class="empty-div"></div>
+                <div class="chevron">
+                  <a href="#"><i class="fas fa-chevron-left"></i></a>
+                </div>
+                <div class="profile__picture">
+                  <img
+                    class="picture"
+                    src="Images/avatar.jpg"
+                    alt="profile picture"
+                  />
+                </div>
+                <div class="profile">
+                  <div class="profile__name">Samuel Green</div>
+                  <div class="profile__availability">Available to Walk</div>
+                </div>
+                <div class="mobile__menu">
+                  <a href="#"><i class="fas fa-ellipsis-v fa-sm"></i></a>
                 </div>
               </div>
-              <div>
-                <p class="price">$29</p>
-              </div>
-            </div>
-            <div class="chat chat-accent">
-              <div class="radio__button">
-                <input class="radio" type="radio" name="30min" id="" />
-                <div>
-                  <label class="radio__text" for="30min">1 hour walk</label>
+              <div class="mobile__chat">
+                <div class="chat chat-primary">
+                  <p class="message">
+                    That sounds great. I'd be happy to discuss more.
+                  </p>
+                </div>
+                <div class="chat chat-primary">
+                  <p class="message">
+                    Could you send ovver some picture of you dog, please?
+                  </p>
+                </div>
+                <div class="chat-images">
+                  <div>
+                    <img
+                      class="dog__image"
+                      src="Images/dog-image-1.jpg"
+                      alt="photo of a dog"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="dog__image"
+                      src="Images/dog-image-2.jpg"
+                      alt="photo of a dog"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="dog__image"
+                      src="Images/dog-image-3.jpg"
+                      alt="photo of a dog"
+                    />
+                  </div>
+                </div>
+                <div class="chat chat-secondary chat-box-right">
+                  <p class="message">
+                    Here are few pictures. She's a happy girl
+                  </p>
+                </div>
+                <div class="chat chat-secondary chat-box-right box-small">
+                  <p class="message">Can you make it?</p>
+                </div>
+                <div class="chat chat-primary">
+                  <p class="message">
+                    She looks so happy! The time we discussed works. How long
+                    shall I take her out for?
+                  </p>
+                </div>
+                <div class="chat chat-accent">
+                  <div class="radio__button">
+                    <input class="radio" type="radio" name="30min" id="" />
+                    <div>
+                      <label class="radio__text" for="30min"
+                        >30 minute walk</label
+                      >
+                    </div>
+                  </div>
+                  <div>
+                    <p class="price">$29</p>
+                  </div>
+                </div>
+                <div class="chat chat-accent">
+                  <div class="radio__button">
+                    <input class="radio" type="radio" name="30min" id="" />
+                    <div>
+                      <label class="radio__text" for="30min">1 hour walk</label>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="price">$49</p>
+                  </div>
                 </div>
               </div>
-              <div>
-                <p class="price">$49</p>
+              <div class="input-group">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Type a message..."
+                />
+                <button class="btn btn--accent">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
               </div>
             </div>
           </div>
-          <div class="input-group">
-            <input class="input" type="text" placeholder="Type a message..." />
-            <button class="btn btn--accent">
-              <i class="fas fa-chevron-right"></i>
-            </button>
+          <div class="box-two">
+            <div class="ad">
+              <h1 class="adv-heading">Simple booking</h1>
+              <p>
+                Stay in touch with our dog walkers through the chat interface.
+                This makes it easy to discuess arrangements and make bookings.
+                Once the walk has been completed you can rate your walker and
+                bood again all through the chat.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="ad">
-          <h1 class="adv-heading">Simple booking</h1>
-          <p>
-            Stay in touch with our dog walkers through the chat interface. This
-            makes it easy to discuess arrangements and make bookings. Once the
-            walk has been completed you can rate your walker and bood again all
-            through the chat.
-          </p>
         </div>
       </section>
     </main>
