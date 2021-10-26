@@ -19,7 +19,7 @@
     <title>Chat App</title>
   </head>
   <body>
-    <main>
+    <main class="container">
       <div class="bacground">
         <div class="bg-up"></div>
         <div class="bg-down"></div>
@@ -115,11 +115,21 @@
               </div>
             </div>
           </div>
-          <input placeholder="Type a message..." class="type-message">
-          <div class="send-message">
-            <a href="#"><i class="fas fa-chevron-right"></i></a>
+          <div class="input-group">
+            <input class="input" type="text" placeholder="Type a message..." />
+            <button class="btn btn--accent">
+              <i class="fas fa-chevron-right"></i>
+            </button>
           </div>
-        </input>
+        </div>
+        <div class="ad">
+          <h1 class="adv-heading">Simple booking</h1>
+          <p>
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuess arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and bood again all
+            through the chat.
+          </p>
         </div>
       </section>
     </main>

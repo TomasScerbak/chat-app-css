@@ -2,12 +2,10 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-color: var(--light-grayish-violet);
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
   line-height: 1.5;
   height: 100vh;
-  margin: 3rem;
 }
 :root {
   --pale-violet: hsl(276, 100%, 81%);
@@ -25,6 +23,10 @@ img {
 }
 p {
   margin: 0;
+}
+/* Container */
+.container {
+  margin: 3rem;
 }
 /* Background */
 .background {
@@ -87,7 +89,8 @@ p {
   border-radius: 30px 30px 1px 1px;
   padding: 3rem 1.5rem 1.5rem;
 }
-.fas {
+.fa-chevron-left,
+.fa-ellipsis-v {
   color: var(--white);
   opacity: 80%;
 }
@@ -189,15 +192,52 @@ input[type="radio"] {
   padding: 1rem;
 }
 /* Type Message */
-.type-message {
-  width: 80%;
-  font-size: 1rem;
-  opacity: 50%;
-  outline: none;
+.input {
+  padding: 1.5rem 3.5rem;
+  outline: 0;
   border: none;
-  border-radius: 20px;
-  background-color: var(--white);
-  padding: 2rem;
+  border-radius: 30px;
+  font-size: 1rem;
   margin: 1rem;
+}
+::placeholder {
   color: var(--grayish-blue);
+  opacity: 80%;
+}
+.input-group {
+  display: flex;
+  position: relative;
+}
+.input-group .input {
+  border: 0;
+  flex-grow: 1;
+  padding: 1.5rem 1.5rem;
+}
+/* Type Message Button */
+.btn {
+  position: absolute;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 100%;
+  background-color: var(--very-dark-desaturated-violet);
+  right: 5%;
+  bottom: 25%;
+}
+.fa-chevron-right {
+  color: var(--white);
+}
+/* Advertisment */
+.ad {
+  margin-top: 5rem;
+}
+.ad > p {
+  color: var(--dark-grayish-violet);
+  font-size: 1.6rem;
+  text-align: center;
+}
+.adv-heading {
+  color: var(--very-dark-desaturated-violet);
+  font-size: 4rem;
 }
