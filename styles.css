@@ -9,6 +9,7 @@ body {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
   line-height: 1.5;
+  height: 100vh;
 }
 :root {
   --pale-violet: hsl(276, 100%, 81%);
